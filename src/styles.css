@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: black;
+  color: darkgray;
+}
+.row{
+  display: flex;
+  margin-bottom: 2px;
+}
+.segment {
+  background-color: darkgray;
+  border-radius: 5px;
+  height: 18px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
